@@ -1,0 +1,11 @@
+
+syntax="proto3";
+
+package ciaolink.protobuf;
+
+option go_package = "github.com/socna/protobuf/result";
+
+message Result {
+    int32 code = 1;
+    string message = 2;
+}
